@@ -4,7 +4,7 @@ def getValidHeight():
             height = int(input("Height: "))
         except ValueError:
             continue
-        if height > 1 and height < 8:
+        if height >= 1 and height <= 8:
             return height
 
 
